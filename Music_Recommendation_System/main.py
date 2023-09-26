@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load data
-df = pd.read_csv('cleaned.csv')
+df = pd.read_csv('Music_Recommendation_System/cleaned.csv')
 
 # Load cosine similarity matrix
 with open('cosine_sim.pkl', 'rb') as f:
